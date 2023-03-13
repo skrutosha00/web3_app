@@ -7,7 +7,12 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@waxio/waxjs": "^1.3.0",
+    "anchor-link": "^3.5.1",
+    "anchor-link-browser-transport": "^3.5.1",
+    "ant-design-vue": "^3.2.15",
     "core-js": "^3.8.3",
+    "eosjs": "^22.1.0",
     "vue": "^3.2.13"
   },
   "devDependencies": {
