@@ -6,7 +6,7 @@ import { getAmountString } from "./utils";
 
 let session = null;
 
-const rpc = new JsonRpc("http://api.wax.alohaeos.com/");
+const rpc = new JsonRpc("https://api.wax.alohaeos.com/");
 const transport = new AnchorLinkBrowserTransport();
 const link = new AnchorLink({
   transport,
